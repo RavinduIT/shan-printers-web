@@ -9,6 +9,7 @@ export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const location = useLocation();
   const isHomePage = location.pathname === "/";
+  const isAdmin = sessionStorage.getItem("adminAuth") === "true";
 
   useEffect(() => {
     const handleScroll = () => {
@@ -65,16 +66,18 @@ export function Navbar() {
           >
             Contact
           </Link>
-          <Link 
-            to="/admin" 
-            className={`transition-colors ${
-              location.pathname === "/admin" 
-                ? "text-primary font-medium" 
-                : "text-foreground hover:text-primary"
-            }`}
-          >
-            Admin
-          </Link>
+          {isAdmin && (
+            <Link 
+              to="/admin" 
+              className={`transition-colors ${
+                location.pathname === "/admin" 
+                  ? "text-primary font-medium" 
+                  : "text-foreground hover:text-primary"
+              }`}
+            >
+              Admin
+            </Link>
+          )}
           <ThemeToggle />
         </nav>
 
@@ -143,17 +146,19 @@ export function Navbar() {
             >
               Contact
             </Link>
-            <Link
-              to="/admin"
-              className={`block py-2 ${
-                location.pathname === "/admin" 
-                  ? "text-primary font-medium" 
-                  : "text-foreground hover:text-primary"
-              }`}
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              Admin
-            </Link>
+            {isAdmin && (
+              <Link
+                to="/admin"
+                className={`block py-2 ${
+                  location.pathname === "/admin" 
+                    ? "text-primary font-medium" 
+                    : "text-foreground hover:text-primary"
+                }`}
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Admin
+              </Link>
+            )}
           </div>
         </div>
       )}
