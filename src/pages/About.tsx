@@ -49,7 +49,7 @@ const About = () => {
               <div className="absolute -top-6 -left-6 w-24 h-24 bg-primary/10 rounded-full animate-float" />
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-secondary/10 rounded-full animate-float" style={{animationDelay: "1.5s"}} />
               <img 
-                src="https://images.unsplash.com/photo-1621620844943-3166aa247836?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                src="https://media.istockphoto.com/id/1334041236/photo/print-shop-worker-checking-quality-of-imprint-and-controlling-printing-process.jpg?s=612x612&w=0&k=20&c=NFVG2CRnEd0mSL6qeJCVPDrRS3FEOLZ8JL2b9uu74ys=" 
                 alt="Printing workshop" 
                 className="rounded-xl shadow-xl w-full h-[400px] object-cover z-10 relative"
               />

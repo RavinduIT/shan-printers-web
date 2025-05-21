@@ -56,9 +56,9 @@ const Index = () => {
                 <div className="absolute -top-6 -left-6 w-24 h-24 bg-primary/10 rounded-full animate-float" />
                 <div className="absolute -bottom-8 -right-8 w-32 h-32 bg-secondary/10 rounded-full animate-float" style={{animationDelay: "1s"}} />
                 <img
-                  src="https://images.unsplash.com/photo-1588071316456-828626a2a402?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src="https://smallbusinessmarketing.uk/wp-content/uploads/2024/04/printing-press-1024x683.jpg"
                   alt="Professional Printing Services"
-                  className="rounded-xl shadow-xl w-full object-cover z-10 relative"
+                  className="rounded-xl shadow-xl w-full object-cover z-10 relative transition-transform hover:scale-105 duration-300 ease-in-out"
                   style={{ maxHeight: "500px" }}
                 />
               </div>
@@ -113,7 +113,7 @@ const Index = () => {
               <div className="relative">
                 <div className="absolute -top-6 -left-6 w-24 h-24 bg-primary/10 rounded-full animate-float" />
                 <img 
-                  src="https://images.unsplash.com/photo-1621620844943-3166aa247836?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+                  src="https://www.flippingheck.com/wp-content/uploads/2023/08/a-modern-printing-press-producing-multi-coloured-p.jpeg" 
                   alt="Shan Printers Workshop" 
                   className="rounded-xl shadow-xl w-full object-cover z-10 relative"
                 />
