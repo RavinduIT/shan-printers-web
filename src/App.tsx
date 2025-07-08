@@ -24,62 +24,61 @@ const App = () => {
           title: "Offset Printing",
           description: "High-quality offset printing for brochures, flyers, business cards, and more with vibrant colors and sharp details.",
           icon: "🖨️",
-          image: "https://images.unsplash.com/photo-1598214015728-bc73871186d8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          image: "https://www.arka.com/cdn/shop/files/what-is-offset-printing-packaging.jpg?v=1702472085&width=406"
         },
         {
           id: "digital-printing",
           title: "Digital Printing",
           description: "Fast and cost-effective digital printing solutions for short runs and on-demand printing needs.",
           icon: "💻",
-          image: "https://images.unsplash.com/photo-1512413914633-b5043f4041ea?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          image: "https://studio54print.com/wp-content/uploads/2020/03/Digital-Print-ul.jpg"
         },
         {
           id: "screen-printing",
           title: "Screen Printing",
           description: "Custom screen printing for t-shirts, merchandise, signage, and promotional products with long-lasting results.",
-          icon: "👕",
-          image: "https://images.unsplash.com/photo-1618220252344-8ec99ec624b1?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          icon: "🎴",
+          image: "https://steveapparel.com/images/blog/what-is-screen-Printing.jpeg"
         },
         {
           id: "wedding-cards",
           title: "Wedding Cards",
           description: "Elegant and customized wedding invitation cards with premium papers and beautiful designs.",
           icon: "💌",
-          image: "https://images.unsplash.com/photo-1595706449515-89e772a4da9c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          image: "https://withjoy.com/assets/public/marcom-prod/invites-gallery/hero.jpg?m_resize=w600&opt=aggressive&ver=2"
         },
         {
           id: "wedding-cake-boxes",
           title: "Wedding Cake Boxes",
           description: "Stylish and sturdy custom wedding cake boxes to complement your special occasion.",
           icon: "🎂",
-          image: "https://images.unsplash.com/photo-1587668178277-295251f900ce?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          image: "https://sevencolourscard.com/wp-content/uploads/2020/04/Favour-Box-Rich-Cake-wedding-boxes-in-assorted-colours-3.jpg"
         },
         {
           id: "seals-key-tags",
           title: "Seals & Key Tags",
           description: "Professional seals, stamps, and customized key tags for branding and identification.",
           icon: "🔑",
-          image: "https://images.unsplash.com/photo-1623179304349-93446fdb0b5c?q=80&w=2012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          image: "https://epiplastics.co.nz/images/105796_house_flexi_key_ring_1000.jpg"
         },
         {
           id: "mug-printing",
           title: "Mug Printing",
           description: "Personalized mug printing services for gifts, promotions, and merchandising.",
           icon: "☕",
-          image: "https://images.unsplash.com/photo-1572290569742-d67a6bf040f5?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          image: "https://onada.lk/public/uploads/products/photos/RzxLdXUsXc7d98FyrM0Gy9wgBIZROSn6FDDGjtwD.png"
         },
         {
           id: "banner-printing",
           title: "Banner Printing",
           description: "Large format banner printing for indoor and outdoor advertising, events, and promotions.",
           icon: "🏁",
-          image: "https://images.unsplash.com/photo-1565979159261-7973517cd194?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          image: "https://cdn.printarabia.ae/assets/product-uploads/production/product_selection_banner-printarabia-116cc86b8de414dd5e7b00af889785a0.jpg"
         }
       ];
       
       localStorage.setItem("printServices", JSON.stringify(initialServices));
       
-      // Add some sample items
       const sampleItems = [
         {
           id: "item1",
@@ -87,7 +86,7 @@ const App = () => {
           description: "300gsm matte-finish premium business cards with spot UV coating",
           price: 2500,
           serviceId: "offset-printing",
-          image: "https://images.unsplash.com/photo-1606236535784-aa2007001add?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          image: "https://cloudprint.uk/wp-content/uploads/2023/06/Business-card.jpg",
           createdAt: new Date().toISOString()
         },
         {
@@ -96,25 +95,25 @@ const App = () => {
           description: "Full color A4 flyers printed on 150gsm art paper",
           price: 1500,
           serviceId: "digital-printing",
-          image: "https://images.unsplash.com/photo-1574264730836-6abe878fdfb3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          image: "https://5.imimg.com/data5/SELLER/Default/2022/3/OQ/DT/YD/3597247/dsd-500x500.jpg",
           createdAt: new Date().toISOString()
         },
         {
           id: "item3",
           name: "Custom T-Shirt",
-          description: "Screen printed custom t-shirts with your design, minimum order of 10 pieces",
+          description: "Screen printed custom t-shirts with your design, minimum order of 50 pieces",
           price: 950,
           serviceId: "screen-printing",
-          image: "https://images.unsplash.com/photo-1529374255404-311a2a4f1fd9?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          image: "https://thebanyantee.com/cdn/shop/files/White-T-shirt_f1ff4218-0807-441e-966a-7b3cf6c1bf63.jpg?v=1751219681",
           createdAt: new Date().toISOString()
         },
         {
           id: "item4",
           name: "Wedding Invitation (Gold Foil)",
           description: "Elegant wedding invitations with gold foil stamping and premium envelope",
-          price: 750,
+          price: 150,
           serviceId: "wedding-cards",
-          image: "https://images.unsplash.com/photo-1607611439230-afcf205cf7e2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+          image: "https://www.pickybride.com/cdn/shop/files/gold-acrylic-mirror-wedding-invitation-elegant-invites-cards-with-filigree-frame-wedding-ceremony-supplies-picky-bride-487364_1024x1024.jpg",
           createdAt: new Date().toISOString()
         }
       ];

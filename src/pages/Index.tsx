@@ -255,7 +255,7 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-primary text-primary-foreground">
+      <footer className="bg-primary text-primary-foreground" id="footer">
         <div className="container mx-auto py-8 px-4">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
@@ -282,7 +282,7 @@ const Index = () => {
                 Follow us on social media for updates and promotions.
               </p>
               <div className="flex space-x-4 mt-4">
-                <a href="#" className="bg-primary-foreground/20 hover:bg-primary-foreground/40 p-2 rounded-full transition-colors">
+                <a href="https://www.facebook.com/profile.php?id=100090238103076" className="bg-primary-foreground/20 hover:bg-primary-foreground/40 p-2 rounded-full transition-colors">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5">
                     <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
                   </svg>

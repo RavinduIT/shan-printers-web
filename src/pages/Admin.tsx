@@ -104,7 +104,7 @@ const Admin = () => {
 
   const handleLogin = () => {
     // Simple password authentication (in a real app, this would be more secure)
-    if (password === "admin123") {
+    if (password === "Ravindu@2003") {
       setIsAuthenticated(true);
       sessionStorage.setItem("adminAuth", "true");
       toast.success("Login successful");
@@ -206,7 +206,7 @@ const Admin = () => {
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                   />
-                  <p className="text-xs text-muted-foreground">Default password: admin123</p>
+                  <p className="text-xs text-muted-foreground"></p>
                 </div>
                 <Button className="w-full" onClick={handleLogin}>Login</Button>
               </div>
